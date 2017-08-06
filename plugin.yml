@@ -15,7 +15,7 @@ version: "2.0"
 commands:
   버프핫타임:
     description: 버프핫타임
-    permission: get.pickaxe.command
+    permission: get.aa.command
   머니핫타임:
     description: 머니핫타임
     permission: get.money.command
@@ -25,7 +25,7 @@ commands:
 
 
 permissions:
-  get.pickaxe.command:
+  get.aa.command:
     default: OP
   get.money.command:
     default: OP
