@@ -14,7 +14,7 @@ use ifteam\RankManager\rank\RankProvider;
 class EffectHottime extends PluginBase implements Listener {
 public function onEnable() {
       $this->getServer()->getPluginManager()->registerEvents($this, $this);
-if(!Utils::getURL("http://jasper.dothome.co.kr/plugin/EffectHottime.txt") == "2.0") {
+if(!Utils::getURL("https://raw.githubusercontent.com/yonggyu/EffectHottime/master/VersionCheck.yml") == "2.0") {
     	$this->getLogger()->alert("최신버전의 플러그인을 사용하십시오! 이 버젼은 오류가 날 수 있습니다. 플러그인을 비활성화합니다..");    	$this->getServer()->disablePlugin($this);
     }
     $this->getLogger()->notice("최신버전의 플러그인을 사용중입니다.");
