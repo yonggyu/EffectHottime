@@ -1,0 +1,33 @@
+name: EffectHottime
+main: Jasper\EffectHottime
+author: Jasper
+api:
+- 1.0.0
+- 2.0.0
+- 2.1.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+version: "2.0"
+
+commands:
+  버프핫타임:
+    description: 곡괭이을 얻을 수 있습니다.
+    permission: get.pickaxe.command
+  머니핫타임:
+    description: 머니핫타임
+    permission: get.money.command
+  칭호핫타임:
+    description: 칭호핫타임
+    permission: get.prefix.command
+
+
+permissions:
+  get.pickaxe.command:
+    default: OP
+  get.money.command:
+    default: OP
+  get.prefix.command:
+    default: OP
