@@ -2,7 +2,7 @@
 EffectHottime Plugin<br>
 라이선스를 꼭 지켜주세요.<br>
 <br>
-#사용법
+# 사용법
 /버프핫타임<br>
 /머니핫타임<br>
 /칭호핫타임<br>
